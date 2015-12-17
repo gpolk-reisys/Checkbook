@@ -32,7 +32,7 @@
 	},
 	"formatted_salary_amount": {
 	      "type": "expression2",
-	      "expression": " $row['employment_type_employment_type'] == 'Salaried' ? custom_number_formatter_basic_format($row['total_salaried_amount'])  : '-'  "
+	      "expression": " $row['employment_type_employment_type'] == 'Salaried' ? custom_number_formatter_basic_format($row['annual_salary_annual_salary'])  : '-'  "
 	},
 	"formatted_non_salary_amount": {
 	      "type": "expression2",
