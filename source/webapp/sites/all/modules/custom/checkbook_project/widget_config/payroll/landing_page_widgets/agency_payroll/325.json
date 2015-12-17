@@ -13,6 +13,11 @@
 "disableViewAll":true,
 "enableExpand":true,
 "getTotalDataCount":true,
+"totalDataColumnConfig":
+{
+    "distinctColumn":"employee.employee.employee_number",
+    "distinctColumnMap":"employee_number"
+},
 "header":"
 $node->widgetConfig->getData=false;
 load_widget_data($node);
